@@ -99,10 +99,28 @@ body {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 822px) {
     .carousel-item img {
         height: 280px;
     }
+
+    .container .sobre-nos {
+        width: 220px;
+        height: 220px;
+    }
+
+    .sobre-nos-h2 {
+        font-size: 25px;
+    }
+
+    .sobre-nos-p {
+        font-size: 15px;
+    }
+
+    .title-sobre {
+        padding-left: 53px;
+    }
+
 }
 
 @media (max-width: 540px) {
@@ -116,8 +134,25 @@ body {
     }
 }
 
-@media screen and (max-width: 1570px) {
-    .carousel-item img {
+@media (max-width: 1024px) {
+   .sobre-nos img {
+    margin-left: 33%;
+   }
 
-    }
+   .container .sobre-nos {
+    width: 220px;
+    height: 220px;
+}
+
+.sobre-nos-h2 {
+    font-size: 25px;
+}
+
+.sobre-nos-p {
+    font-size: 15px;
+}
+
+.title-sobre {
+    padding-left: 53px;
+}
 }
